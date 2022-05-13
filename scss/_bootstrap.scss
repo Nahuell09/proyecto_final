@@ -1,0 +1,44 @@
+/* Bootstrap productos */
+@media screen and (max-width: 480px){
+    #productos {
+    width: 35vh;
+    margin-left: -90px;
+    }
+}
+#cards {
+    padding: 130px;
+}
+.card {
+    background: linear-gradient(145deg, rgba(146, 145, 143, 0.9725490196), #ffffff);
+    box-shadow: 9.91px 9.91px 15px #d1d2d3, -9.91px -9.91px 15px #fff;
+}
+.bg-arreglo {
+    display: flex;
+    justify-content: center;
+    background-color: #2ECC71;
+}
+.unidades {
+    color: #53e08e;
+}
+button, input, optgroup, select, textarea {
+    font-size: inherit;
+    line-height: inherit;
+    font-size: 1.5rem;
+}
+.cantidad {
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 20%;
+    border: 2px solid #aaa;
+    border-radius: 10%;
+}
+/* Fin bootstrap */
+/* Bootstrap usuario */
+.form {
+    background-color: #fff;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+/* Fin bootstrap usuario */

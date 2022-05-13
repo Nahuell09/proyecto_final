@@ -1,0 +1,22 @@
+/* Body */
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.fondo {
+    background-color: rgb(231, 244, 235);
+    overflow-x: hidden;
+}
+/* Fin body */
+@import "../scss/header";
+@import "../scss/section";
+@import "../scss/bootstrap";
+@import "../scss/ubicacion";
+@import "../scss/footer";
+@import "../scss/contacto";
