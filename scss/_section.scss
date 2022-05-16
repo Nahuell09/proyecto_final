@@ -56,7 +56,9 @@
 }
 @media screen and (max-width: 1024px) {
     .detalle {
+    width: 50vh;
     flex-direction: column;
+    margin-left: -120px;
     }
     .padre {
     width: 100%;

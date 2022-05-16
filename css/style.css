@@ -149,7 +149,9 @@ header nav ul li :hover {
 
 @media screen and (max-width: 1024px) {
   .detalle {
+    width: 50vh;
     flex-direction: column;
+    margin-left: -120px;
   }
 
   .padre {
@@ -253,9 +255,6 @@ footer {
 
 .div1 {
   grid-area: a;
-}
-.div1 ul {
-  flex-direction: column;
 }
 .div1 ul li {
   display: flex;
